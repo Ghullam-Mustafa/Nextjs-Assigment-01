@@ -4,6 +4,7 @@ import Navbar from '../app/components/navbar/Navbar';
 import HeroSection from '../app/components/heroSection/HeroSection';
 import TrendingCollection from '../app/components/trendingCollection/TrendingCollection';
 import Footer from '../app/components/footer/Footer'
+import Subscribe from '../app/components/subscribe/Subscribe'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <TrendingCollection />
+      <Subscribe/>
       <Footer/>
     </main>
   )

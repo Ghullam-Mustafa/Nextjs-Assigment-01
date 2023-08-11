@@ -1,7 +1,8 @@
 import React from 'react'
+
 import '../subscribe/Subscribe.css'
-// import Image from 'next/image'
-import img from '../../assets/Photo.png'
+import Image from 'next/image'
+// import img from '../../assets/Photo.png'
 import SubscribeBtn from './subscribeBtn/SubscribeBtn'
 
 export default function Subscribe() {
@@ -12,7 +13,7 @@ export default function Subscribe() {
                 <div className="col py-5">
                     <div className="row clr">
                         <div className="col-lg-6 p-5">
-                            <Image src='/Photo.png' className='img-fluid' alt="" />
+                            <Image src='/Photo.png'  className='img-fluid' width={425} height={310} alt="" />
                         </div>
                         <div className="col-lg-6  p-5">
                             <h3 className='text-white display-4 fw-bolder'>Join our weekly digest</h3>
