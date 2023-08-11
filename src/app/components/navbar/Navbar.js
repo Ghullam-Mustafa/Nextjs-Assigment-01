@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <div className='navbar px-5'>
       <div className="one">
-        <Image src="/logo.png" className='img-fluid mx-auto' width={200} height={25} />
+        <Image src="/logo.png" className='img-fluid mx-auto' width={243.41} height={32} />
         {/* <img src={logo} alt="" /> */}
       </div>
       <div className="two">

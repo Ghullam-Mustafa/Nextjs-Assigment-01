@@ -6,7 +6,7 @@ import '../buttonOne/ButtonOne.css'
 export default function ButtonOne() {
   return (
     <div>
-        <button  className='btn2'><Image src='/RocketLaunch.png' width={9.45} height={5.67}  /><span className='title'>Get Started</span></button>
+        <button  className='btn2'><Image src='/RocketLaunch.png' width={20} height={20}  /><span className='title'>Get Started</span></button>
     </div>
   )
 }
