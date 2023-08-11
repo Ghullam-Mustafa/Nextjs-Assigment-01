@@ -2,7 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 // import 'bootstrap/dist/js/bootstrap.bundl'
 import Navbar from '../app/components/navbar/Navbar';
 import HeroSection from '../app/components/heroSection/HeroSection';
-import TrendingCollection from '../components/trendingCollection/TrendingCollection';
+import TrendingCollection from '../app/components/trendingCollection/TrendingCollection';
+import Footer from '../app/components/footer/Footer'
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <TrendingCollection />
-
+      <Footer/>
     </main>
   )
 }
