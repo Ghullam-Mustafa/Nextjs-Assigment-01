@@ -5,6 +5,7 @@ import HeroSection from '../app/components/heroSection/HeroSection';
 import TrendingCollection from '../app/components/trendingCollection/TrendingCollection';
 import Footer from '../app/components/footer/Footer'
 import Subscribe from '../app/components/subscribe/Subscribe'
+import HowItWorks from '../app/components/howItWorks/HowItWorks'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <TrendingCollection />
+      <HowItWorks/>
       <Subscribe/>
       <Footer/>
     </main>
