@@ -35,14 +35,14 @@ export default function TrendingCollection() {
                 <div className="container mt-3">
                     <div className="row d-flex justify-content-around ">
                         <div className="col-lg-4 col-md-12 col-sm-6 ">
-                            <Cards   src1='/icon.png'/>
+                            
+                            <Cards src1='/Primary Photo Placeholder.png' src2='/Secondary Photo Placeholder.png' src3='/Secondary Photo Placeholder (1).png' src4='/Number of additional NFTs.png' title="DSGN Animals" src5='/Artist Card.png' />
                         </div>
                        <div className="col-lg-4 col-md-12 col-sm-6 ">
-                            {/* <Cards src1={<Image src='Collection Card.png'/>}/> */}
+                       <Cards src1='/Primary Photo Placeholder.png' src2='/Secondary Photo Placeholder.png' src3='/Secondary Photo Placeholder (1).png' src4='/Number of additional NFTs.png' title="DSGN Animals" src5='/Artist Card.png' />
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-6 ">
-                            {/* <Cards src1={img31} src2={img32} src3={img33} src4={img34} title="Disco Machines" src5={img35} /> */}
-                            {/* <Cards   src1={<Image src="/Primary Photo Placeholder.png" />} src2={<Image src="/Secondary Photo Placeholder.png" />} src3={<Image src="/Secondary Photo Placeholder (1).png'" />} src4={<Image src="/Number of additional NFTs.png" />} title="DSGN Animals" src5={<Image src='Artist Card.png'/>} /> */}
+                        <Cards src1='/Primary Photo Placeholder (1).png' src2='/Secondary Photo Placeholder (3).png' src3='/Secondary Photo Placeholder (3).png' src4='/Number of additional NFTs.png' title="DSGN Animals" src5='/Artist Card (3).png' />
 
                         </div> 
                         

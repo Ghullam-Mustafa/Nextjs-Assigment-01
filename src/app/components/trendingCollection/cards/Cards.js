@@ -6,22 +6,22 @@ export default function Cards(props) {
     return (
         <div>
             <div class="card card-collection   bg-transparent border-0" style={{ width: '17rem' }}>
-                <img src={props.src1} class="card-img-top img-fluid " alt="..." />
+                <Image src={props.src1} width={330} height={330} class="card-img-top img-fluid " alt="..." />
                 <br />
                 <div class="  bg-transparent">
                     <div className="row ">
                         <div className="col-4">
-                            <img src={props.src2} className='img-fluid' alt="" />
+                            <Image src={props.src2} width={100} height={100} className='img-fluid' alt="" />
                         </div>
                         <div className="col-4">
-                            <Image src={props.src3} className='img-fluid' alt="" />
+                            <Image src={props.src3} width={100} height={100} className='img-fluid' alt="" />
                         </div>
                         <div className="col-4">
-                            <img src={props.src4} className='img-fluid' alt="" />
+                            <Image src={props.src4} width={100} height={100} className='img-fluid' alt="" />
                         </div>
                     </div>
                     <p className='text-white  fw-bold fs-5 '>{props.title}</p>
-                    <img src={props.src5} alt="" />
+                    <Image src={props.src5} width={330} height={24} alt="" />
                 </div>
             </div>
         </div>
