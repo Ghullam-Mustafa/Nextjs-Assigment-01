@@ -1,5 +1,6 @@
 import React from 'react'
 import '../cards/cardsCss/Cards.css'
+import Image from 'next/image'
 
 export default function Cards(props) {
     return (
@@ -13,7 +14,7 @@ export default function Cards(props) {
                             <img src={props.src2} className='img-fluid' alt="" />
                         </div>
                         <div className="col-4">
-                            <img src={props.src3} className='img-fluid' alt="" />
+                            <Image src={props.src3} className='img-fluid' alt="" />
                         </div>
                         <div className="col-4">
                             <img src={props.src4} className='img-fluid' alt="" />

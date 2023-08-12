@@ -23,13 +23,13 @@ export default function HowItWorks() {
             <div className="container">
                 <div className="row d-flex justify-content-between">
                     <div className="col-lg-4 col-md-12 col-sm-12 my-3">
-                        <HowItWorksCards src={<Image src='/Icon.png' />} title="Setup Your Wallet" para="Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner." />
+                        <HowItWorksCards title="Setup Your Wallet" para="Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner." />
                     </div>
                     <div className="col-lg-4 col-md-12 col-sm-12 my-3">
-                        <HowItWorksCards src={<Image src='/Icon(1).png' />} title="Create Collection" para="Upload your work and setup your collection. Add a description, social links and floor price." />
+                        {/* <HowItWorksCards src={<Image src='/Icon(1).png' />} title="Create Collection" para="Upload your work and setup your collection. Add a description, social links and floor price." /> */}
                     </div>
                     <div className="col-lg-4 col-md-12 col-sm-12 my-3">
-                        <HowItWorksCards src={<Image src='/Icon(2).png' />} title="Start Earning" para="Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others." />
+                        {/* <HowItWorksCards src={<Image src='/Icon(2).png' />} title="Start Earning" para="Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others." /> */}
                     </div>
                 </div>
             </div>

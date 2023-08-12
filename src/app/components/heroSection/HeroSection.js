@@ -43,7 +43,7 @@ export default function HeroSection() {
                         <div className="card border-0 cardss d-flex justify-content-around bg-transparent" >
                             <Image src='/Image Placeholder.png' width={510} height={401} className="card-img-top" alt="..." />
                             <div className="card-body">
-                            <h5 className='text-white h5  fw-bold'>Space Walking</h5>
+                                <h5 className='text-white h5  fw-bold'>Space Walking</h5>
                                 <div>
                                     <img src='/Artist Card.png' classNameName='img-fluid ' alt="" />
 
