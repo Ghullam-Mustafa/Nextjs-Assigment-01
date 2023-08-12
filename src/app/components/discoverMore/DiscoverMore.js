@@ -20,18 +20,18 @@ export default function DiscoverMore() {
                     </div>
                 </div>
             </div>
-            
+
             <div className="container">
                 <div className="row ">
                     <div className="col-lg-4 col-md-6 col-sm-12 my-4">
-                        <DiscoverCard  name="Distant Glaxy" />
+                        <DiscoverCard src='/Image Placeholder (2).png' name="Life of Edena" img2='/Artist Avatar & Name.png' />
                     </div>
-                    {/* <div className="col-lg-4 col-md-6 col-sm-12 my-4">
-                        <DiscoverCard src={img21} name="Life of Edena" img2={img22} />
-                    </div> */}
-                    {/* <div className="col-lg-4 col-md-6 col-sm-12 my-4">
-                        <DiscoverCard src={img31} name="AstroFiction" img2={img32} />
-                    </div> */}
+                    <div className="col-lg-4 col-md-6 col-sm-12 my-4">
+                        <DiscoverCard src='/Image Placeholder (3).png' name="Life of Edena" img2='/Artist Avatar & Name (1).png' />
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-12 my-4">
+                        <DiscoverCard src='/Image Placeholder (4).png' name="Life of Edena" img2='/Artist Avatar & Name (2).png' />
+                    </div>
                 </div>
             </div>
         </div>

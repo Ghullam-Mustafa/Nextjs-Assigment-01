@@ -7,10 +7,10 @@ export default function DiscoverCard(props) {
     <div>
         <div className=" rounded-5 border-0 bg-transparent">
                 <div class="card bg-transparent border-0" >
-                    <Image src='/ImagePlaceholder(2).png' width={330} height={296}  className='img-fluid card-img-top' alt="..." />
+                    <Image src={props.src} width={330} height={296}  className='img-fluid card-img-top' alt="..." />
                     <div class="card-body">
                         <h4 class="card-text text-white px-1">{props.name}</h4>
-                        <img src='/Artist Avatar & Name.png' width={270} height={24} alt="" className='img-fluid' />
+                        <Image src={props.img2} width={270} height={24} alt="" className='img-fluid' />
                         <div className="d-flex justify-content-between pt-3">
                             <p className=' asdf font-monospace'>Price</p>
                             <p className=' asdf font-monospace'>Higest Bid</p>
