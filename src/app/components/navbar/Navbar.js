@@ -7,9 +7,9 @@ import NavButton from '../navButton/NavButton'
 
 export default function Navbar() {
   return (
-    <div className='navbar px-5'>
+    <div className='navbar px-5 d-flex'>
       <div className="one">
-        <Image src="/logo.png" className='img-fluid mx-auto' width={243.41} height={32} />
+        <Image src="/logo.png" className='img-fluid ppp mx-auto' width={230.41} height={32} />
         {/* <img src={logo} alt="" /> */}
       </div>
       <div className="two">
@@ -17,7 +17,9 @@ export default function Navbar() {
           <div className="p none text-white">Rankings</div>
           <div className="p none text-white">Connect a wallet</div>
           <div className="none"><NavButton /></div>
-          <Image src='/Burger Menu.png' width={75} height={75} alt="" className='hamburger' />
+          <div>
+        <Image src='/Burger Menu.png' width={50} height={50} alt="" className='hamburger' />
+          </div>
       </div>
     </div>
   )
