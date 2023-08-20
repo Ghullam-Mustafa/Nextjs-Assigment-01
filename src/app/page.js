@@ -18,7 +18,7 @@ export default function Home() {
       <TrendingCollection />
       <TopCreater/>
       <BrowsCategories/>
-      {/* <DiscoverMore/> */}
+      <DiscoverMore/>
       <FluidImg/>
       <HowItWorks/>
       <Subscribe/>
